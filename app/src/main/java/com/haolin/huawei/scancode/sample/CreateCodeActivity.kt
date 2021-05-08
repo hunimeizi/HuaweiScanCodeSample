@@ -1,6 +1,5 @@
 package com.haolin.huawei.scancode.sample
 
-import android.Manifest
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.Color
@@ -13,7 +12,6 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
 import com.huawei.hms.hmsscankit.ScanUtil
 import com.huawei.hms.ml.scan.HmsBuildBitmapOption
 import com.huawei.hms.ml.scan.HmsScan

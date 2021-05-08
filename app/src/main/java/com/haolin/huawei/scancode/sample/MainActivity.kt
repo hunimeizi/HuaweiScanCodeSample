@@ -16,7 +16,7 @@ import com.huawei.hms.ml.scan.HmsScanAnalyzerOptions
 class MainActivity : AppCompatActivity() {
 
     private val REQUEST_CODE_SCAN_ONE = 0X01
-    val tvContent by lazy { findViewById<TextView>(R.id.tvContent) }
+    private val tvContent by lazy { findViewById<TextView>(R.id.tvContent) }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
