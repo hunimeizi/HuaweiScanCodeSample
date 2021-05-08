@@ -26,7 +26,9 @@ override fun onRequestPermissionsResult(
 ```
 
 ##### demo功能
+
 1.本Demo扫码识别和本地图片二维码识别
+
 2.添加了生成二维码功能和保存二维码功能，注意添加一下manifest代码否则会保存图片错误
 ```js
 android:requestLegacyExternalStorage="true"
